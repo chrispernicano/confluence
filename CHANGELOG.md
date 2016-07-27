@@ -1,3 +1,6 @@
+## 2.1.1
+* try a fix to setting apache listen_port attributes
+
 ## 2.1.0 (July 13, 2016)
 
 BACKWARDS INCOMPATIBILITIES:
@@ -12,7 +15,7 @@ IMPROVEMENTS:
 
 - Added attribute `['confluence']['jvm']['bundled_jre']` allowing to manage
   custom JRE by `java` cookbook regardless of `install_type`.
-  [[GH-111]](https://github.com/parallels-cookbooks/confluence/pull/111)  
+  [[GH-111]](https://github.com/parallels-cookbooks/confluence/pull/111)
 - Added support of Confluence 5.9.9, 5.9.10, 5.10.1.
   [[GH-107]](https://github.com/parallels-cookbooks/confluence/pull/107)
   [[GH-115]](https://github.com/parallels-cookbooks/confluence/pull/115)

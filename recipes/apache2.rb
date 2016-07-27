@@ -18,12 +18,12 @@
 #
 if node['apache'].attribute?('listen_ports')
   # Compatibility with cookbook 'apache' < 3.2.0
-  node.default['apache']['listen_ports'] |= [
+  node.default['apache']['listen_ports'] ||= [
     node['confluence']['apache2']['port'],
     node['confluence']['apache2']['ssl']['port']
   ]
 else
-  node.default['apache']['listen'] |= [
+  node.default['apache']['listen'] ||= [
     "*:#{node['confluence']['apache2']['port']}",
     "*:#{node['confluence']['apache2']['ssl']['port']}"
   ]
