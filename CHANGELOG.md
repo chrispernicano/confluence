@@ -1,3 +1,6 @@
+## 2.1.2
+* support version 5.2.3
+
 ## 2.1.1
 * try a fix to setting apache listen_port attributes
 

@@ -137,6 +137,11 @@ module Confluence
     # Returns SHA256 checksum map for Confluence artifacts
     def confluence_checksum_map
       {
+        '5.2.3' => {
+          'x32' => '09387b29824c507cc97fb662ff8b80dcf912c617b12420eed7b5cab3d0fa137f',
+          'x64' => '5c518d54bcd06792a5eb7c62cbc031515c242fd944a0c6be64964b6d7f163bdc',
+          'tar' => '83b50558fa0f7c514b56ca56e73dbb337e725e1936b4cf2dd9c8a44b43a5e25e'
+        },
         '5.5.2' => {
           'x32' => '4e2ceb32cfa45085b184bbe08c7d4fbce6985487f9d12855e7fd4d0e60d9c78f',
           'x64' => '6b0361e2e25161f5e2d99380b397b5768fef835922dcb21ae34dfbc484bc203c',
