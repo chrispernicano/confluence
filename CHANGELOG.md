@@ -1,3 +1,6 @@
+## 2.1.3
+* add XX:MaxPermSize=512 in setenv.sh
+
 ## 2.1.2
 * support version 5.2.3
 
