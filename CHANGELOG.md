@@ -1,3 +1,6 @@
+## 2.1.4
+* add javaopts attribute
+
 ## 2.1.3
 * add XX:MaxPermSize=512 in setenv.sh
 
